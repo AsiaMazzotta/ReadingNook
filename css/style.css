@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+
+/*
+    SEZIONE PER IL NAV
+*/
+nav{
+    background-color: #b3deef ;
+    font-weight:bold;
+    position: fixed;
+}
+#titolo{
+    font-family: 'Constantia', cursive;
+    font-size:x-large;
+    font-weight: bold;
+}
+h4{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#search{
+    border-radius: 25px;
+    border: 2px solid transparent;
+    padding: 20px; 
+    width: 200px;
+    height: 15px;    
+}
+
+
+@media (max-width:700px) {
+    h4{
+        text-align: center;
+    }
+}
+
+
+#form{
+    position: relative;
+}
+
+
+#dropdown{
+    display: none;
+    background: #fff;
+    position: absolute;
+    top: 47px;
+    width: 300px;
+	border-radius: 30px;
+	padding: 20px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.05), 
+				0 0 2px rgba(0, 0, 0, 0.05),
+				0 0 3px rgba(0, 0, 0, 0.05),
+				0 0 4px rgba(0, 0, 0, 0.05), 
+				0 0 5px rgba(0, 0, 0, 0.05), 
+				0 0 4px rgba(0, 0, 0, 0.05), 
+				0 0 5px rgba(0, 0, 0, 0.05);
+}
+@media (max-width:1025px){
+    #dropdown{
+        width: 100%;
+    }
+}
+@media (min-width:1025px) {
+    #dropdown{
+        left:-30px;
+    }
+}
+
+
+#dropdown li{
+    list-style: none;
+    text-align: left;
+    margin-bottom: 10px;
+}
+#dropdown li a{
+    padding: 8px;
+}
+
+/*
+    SEZIONE PAGINA AUTORI
+*/
+#nome{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Castoro Titling', cursive;
+    font-weight: bolder;
+    
+}
+
+#autore{
+    margin-left: auto;
+    margin-right: auto;
+    display: block  ;
+    object-fit: cover;
+}
+p{
+    text-align: center;
+}
+
+.card-body h6{
+    text-align: center;
+}
+
+/*
+    SEZIONE PER I GENERI
+*/
+
+@media (min-width>400px){
+    .input-group input{
+        width: 400px !important;
+    }
+}
+hr{
+    border: 10px solid green;
+    border-radius: 5px;
+}
+h6{
+    text-align: center;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+
+#pallini{
+    text-align: center;
+}
+
+
+.grigio{
+    background-color: gray;
+}
+
+
+.copertina{
+    max-height: 250px !important;
+    max-width: 160px !important;
+    min-height: 250px;
+    max-width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul li{
+    text-align: center;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#contenitore{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+    PER IL MENU A COMPARSA
+*/
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu{
+    margin-top: 0;
+}
+
+
+
+
+
+/*
+    Per le stelline del RATING
+*/
+
+
+.stelline{
+    text-align: center;
+}
+.stars-outer{
+    position: relative;
+    display: inline-block;
+}
+
+.stars-inner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+}
+
+.stars-outer::before{
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #ccc;
+}
+
+.stars-inner::before{
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #f8ce0b;
+}
+
+
+@media (max-width: 700px ) {
+    .frase{
+        display: none;
+    }
+}
+
+
+
