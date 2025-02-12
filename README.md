@@ -1,18 +1,20 @@
-# JBubbleBobble
+# ReadingNook
 
 ## Descrizione
-Questo progetto è stato creato per il corso **"Metodologie di Informatica"** ed è un gioco sviluppato in **Java**, ispirato a **Bubble Bobble**. 
+Questo progetto è stato creato per l'esame di **"Linguaggi e Tecnologie per il Web"** ed è un sito web per la recensione di libri.
 
-Il gioco presenta:
-- Un'**interfaccia grafica** con immagini e sprite.
-- **Musica e suoni** integrati per un'esperienza più coinvolgente.
-- L'uso di diversi **design pattern**, tra cui **MVC (Model-View-Controller)**, per una struttura modulare e manutenibile.
+Il sito permette agli utenti di:
+- Registrarsi e accedere con il proprio account.
+- Inserire recensioni sui libri.
+- Cercare libri tramite un'interfaccia interattiva.
 
 ## Tecnologie Utilizzate
-- **Linguaggio:** Java
-- **Design Pattern:** MVC e altri
-- **Grafica:** Immagini e sprite
-- **Audio:** Musica di sottofondo
+- **Backend:** PHP
+- **Frontend:** JavaScript, jQuery, AJAX
+- **Database:** PostgreSQL
 
-## Ispirazione
-Il gioco si basa sulle meccaniche di **Bubble Bobble**, con un gameplay che prevede il controllo di un personaggio in grado di saltare, sparare e interagire con l'ambiente di gioco.
+## Funzionalità Principali
+- **Gestione utenti:** Registrazione, login e autenticazione.
+- **Sistema di recensioni:** Inserimento e gestione di recensioni.
+- **Interazione dinamica:** Grazie a **AJAX e jQuery**, il sito offre un'esperienza fluida e interattiva.
+- **Ricerca avanzata:** Possibilità di filtrare e ordinare i libri per titolo, autore o valutazione.
